@@ -1,12 +1,19 @@
 package br.com.bitwaysystem.bean;
 
-public class CD {
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlAccessorType(XmlAccessType.FIELD)
+public class CdEn {
 
 	private String title;
 	private String artist;
 	private String country;
 	private String company;
-	private String price;
+	private String price;	
+	
 	private String year;
 
 	public String getTitle() {

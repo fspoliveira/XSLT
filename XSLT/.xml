@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+	<CdPt>
+		<cdItem>
+			<titulo>Empire Burlesque</titulo>
+			<artista>Bob Dylan</artista>
+			<pais>USA</pais>
+			<compania>Columbia</compania>
+			<preco>10.90</preco>
+			<ano>1985</ano>
+		</cdItem>
+		<cdItem>
+			<titulo>Back in Black</titulo>
+			<artista>AC/DC</artista>
+			<pais>USA</pais>
+			<compania>Sony</compania>
+			<preco>20.00</preco>
+			<ano>1980</ano>
+		</cdItem>
+	</CdPt>
+</catalogo>

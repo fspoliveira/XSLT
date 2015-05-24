@@ -7,19 +7,20 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 
+
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Catalog {
+public class Catalogo {
+	
+	@XmlElementWrapper(name = "CdPt")
+	private List<CdPt>  cdItem;
 
-	@XmlElementWrapper(name = "CdEn")
-	private List<CdEn> cdItem;
-
-	public List<CdEn> getCatalog() {
+	public List<CdPt> getCdItem() {
 		return cdItem;
 	}
 
-	public void setCatalog(List<CdEn> catalog) {
-		this.cdItem = catalog;
+	public void setCdItem(List<CdPt> cdItem) {
+		this.cdItem = cdItem;
 	}
 
 }

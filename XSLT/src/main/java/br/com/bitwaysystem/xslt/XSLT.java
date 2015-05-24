@@ -9,6 +9,8 @@ import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 
+
+//Based in article http://stackoverflow.com/questions/23110212/transforming-one-jaxb-object-to-another-using-xslt
 public class XSLT {
 	
 	 /**
